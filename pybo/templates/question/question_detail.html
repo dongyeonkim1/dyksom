@@ -1,5 +1,11 @@
 {% extends 'base.html' %}
 {% block content %}
+<body>
+<style>
+    body {
+        background-color: rgb(255, 245, 248);
+    }
+</style>
 <div class="container my-3">
     <!--flash오류-->
     {% for message in get_flashed_messages() %}
@@ -93,6 +99,7 @@
         <input type="submit" value="답변등록" class="btn btn-primary">
     </form>
 </div>
+</body>
 {% endblock %}
 {% block script %}
 <script type="text/javascript">
