@@ -1,0 +1,115 @@
+#sign_up {
+    top: 100px;
+    left: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Bagel Fat One", serif;
+    font-size: 55px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+#sign_up img {
+    display: block;
+    shape-outside: circle(50%);
+    margin: 2px;
+    bottom: 100px;
+    right: 100px;
+    clip-path: circle(50%);
+}
+
+#log_in {
+    /*width: 250px;*/
+    /*height: 250px;*/
+    /*border: none;*/
+    /*border-radius: 50%;*/
+    /*background-color: rgb(200, 99, 71);*/
+    /*position: fixed; */
+    top: 100px;
+    right: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Bagel Fat One", serif;
+    font-size: 55px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+#comm {
+    /*width: 250px;*/
+    /*height: 250px;*/
+    /*border: none;*/
+    /*border-radius: 50%;*/
+    /*background-color: rgb(200, 99, 71);*/
+    /*position: fixed;*/
+    bottom: 100px;
+    left: 50%;
+    /*transform: translateX(-50%); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Bagel Fat One", serif;
+    font-size: 55px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#schedule {
+    /*width: 250px;*/
+    /*height: 250px;*/
+    /*border: none;*/
+    /*border-radius: 50%;*/
+    /*background-color: rgb(200, 99, 71);*/
+    /*position: fixed; */
+    bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Bagel Fat One", serif;
+    font-size: 55px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#sign_up a {
+    color: white;  /* 글자색을 하얀색으로 변경 */
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-decoration: none; /* 밑줄 제거 (선택 사항) */
+    -webkit-text-stroke: 1px black;
+}
+
+
+#log_in a {
+    color: white;  /* 글자색을 하얀색으로 변경 */
+    letter-spacing: 0.2em;
+    text-decoration: none; /* 밑줄 제거 (선택 사항) */
+    -webkit-text-stroke: 1px black;
+}
+#comm a {
+    color: white;  /* 글자색을 하얀색으로 변경 */
+    letter-spacing: 0.2em;
+    text-decoration: none; /* 밑줄 제거 (선택 사항) */
+    -webkit-text-stroke: 1px black;
+}
+
+#schedule a {
+    color: white;  /* 글자색을 하얀색으로 변경 */
+    letter-spacing: 0.2em;
+    text-decoration: none; /* 밑줄 제거 (선택 사항) */
+    -webkit-text-stroke: 1px black;
+}
+
+/*#stand {*/
+/*    position: fixed;*/
+/*    bottom: 100px;*/
+/*    right: 150px;*/
+/*}*/
